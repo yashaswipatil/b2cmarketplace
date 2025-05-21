@@ -1,0 +1,37 @@
+.carousel-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel-container h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.category-card {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.category-card img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.category-card p {
+  padding: 15px 10px; 
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
