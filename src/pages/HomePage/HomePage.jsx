@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import ProductCard from '../../components/Product/Product';
 import CategoryCarousel from '../../components/Carousel/CategoryCarousel';
 import { addToCart } from '../../redux/cartSlice';
-import './HomePage.css';
+import './Homepage.css';
 
 const HomePage = () => {
   const [products, setProducts] = useState([]);
