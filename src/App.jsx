@@ -15,7 +15,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
-            <Route path="/categories/:categoryName" element={<CategoryPage />} />
+          <Route path="/categories/:categoryName" element={<CategoryPage />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="*" element={<h2>404 - Page Not Found</h2>} />

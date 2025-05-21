@@ -32,10 +32,20 @@
   border-bottom: 2px solid white;
 }
 
-/* Responsive for smaller screens */
-@media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
+.breadcrumb {
+  color: white;
+  font-weight: 500;
+}
+
+.breadcrumb a {
+  color: white;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb span {
+  color: #d1d5db; /* lighter gray for current */
 }
