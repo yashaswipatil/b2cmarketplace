@@ -10,7 +10,7 @@ import ProfilePage from "./pages/ProfilePage/Profile";
 
 function App() {
   return (
-    <Router>
+    <>
       <Navbar />
       <main>
         <Routes>
@@ -21,7 +21,7 @@ function App() {
           <Route path="*" element={<h2>404 - Page Not Found</h2>} />
         </Routes>
       </main>
-    </Router>
+    </>
   );
 }
 
