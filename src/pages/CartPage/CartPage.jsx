@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart, updateQuantity, clearCart } from '../../redux/cartSlice';
 import './CartPage.css';
+import { toast } from 'react-toastify';
 
 const CartPage = () => {
   const cartItems = useSelector(state => state.cart.cartItems);
@@ -9,6 +10,7 @@ const CartPage = () => {
 
   const handleRemove = (id) => {
     dispatch(removeFromCart(id));
+    toast.error('Item removed from cart.');
   };
 
   const handleQuantityChange = (id, qty) => {
@@ -21,7 +23,7 @@ const CartPage = () => {
   ).toFixed(2);
 
   if (cartItems.length === 0) {
-    return <h2 style={{ padding: '20px' }}>Your cart is empty.</h2>;
+    return <h2 style={{ padding: '1.25rem' , marginTop:'3rem' }}>Your cart is empty.</h2>;
   }
 
   return (

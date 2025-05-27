@@ -25,7 +25,7 @@ const CategoryPage = () => {
 
   return (
     <div>
-      <h2 style={{ padding: "20px" }}>
+      <h2 style={{ padding: "20px" , marginTop:'3rem'}}>
         Category: {categoryName.charAt(0).toUpperCase() + categoryName.slice(1)}
       </h2>
       <div className="product-grid">

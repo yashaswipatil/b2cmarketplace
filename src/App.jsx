@@ -5,8 +5,8 @@ import HomePage from "./pages/HomePage/HomePage";
 import CartPage from "./pages/CartPage/CartPage";
 import CategoryPage from "./pages/CategoryPage/CategoryPage";
 import ProfilePage from "./pages/ProfilePage/Profile";
-
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="*" element={<h2>404 - Page Not Found</h2>} />
         </Routes>
+         <ToastContainer position="top-right" autoClose={3000} />
       </main>
     </>
   );

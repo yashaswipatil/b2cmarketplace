@@ -1,17 +1,18 @@
 .carousel-container {
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 1.25rem;
+  max-width: 75rem;
+  margin: 5rem auto 0 auto;
 }
 
 .carousel-container h2 {
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
   font-size: 1.8rem;
   text-align: center;
+  margin-top: 4rem;
 }
 
 .category-card {
-  padding: 10px;
+  padding: 0.625rem;
   text-align: center;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -19,14 +20,14 @@
 
 .category-card img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   object-fit: cover;
-  height: 150px;
-  margin-bottom: 10px;
+  height: 9.375rem;
+  margin-bottom: 0.625rem;
 }
 
 .category-card p {
-  padding: 15px 10px; 
+  padding: 0.9375rem 0.625rem;
   font-size: 1.1rem;
   font-weight: 600;
   color: #333;
