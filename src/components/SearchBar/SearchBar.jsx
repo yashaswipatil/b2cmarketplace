@@ -6,7 +6,7 @@ import {
   clearSearchResults,
 } from '../../redux/productSlice';
 
-import './SearchBar.css';
+import './Searchbar.css';
 
 const SearchBar = () => {
   const dispatch = useDispatch();
